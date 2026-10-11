@@ -3,9 +3,9 @@ pipeline {
 
   environment {
     // Change this to your AWS region.
-    AWS_REGION = 'us-east-1'
+    AWS_REGION = 'ap-southeast-1'
     // Change this to your ECR registry.
-    ECR_REGISTRY = '713939171080.dkr.ecr.us-east-1.amazonaws.com'
+    ECR_REGISTRY = '713939171080.dkr.ecr.ap-southeast-1.amazonaws.com'
     // Change this to your ECR repository name.
     ECR_REPOSITORY = 'weather-app'
     // Change this if your image name is different.
