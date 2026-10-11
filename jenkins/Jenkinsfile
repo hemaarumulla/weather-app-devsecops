@@ -13,7 +13,7 @@ pipeline {
     IMAGE_TAG = "${env.BUILD_NUMBER}"
     IMAGE_FULL = "${env.ECR_REGISTRY}/${env.ECR_REPOSITORY}:${env.IMAGE_TAG}"
     // Change this to your deployed application URL.
-    APP_URL = 'http://54.84.15.117:30080'
+    APP_URL = 'http://13.212.24.19:30080'
     CI = 'true'
   }
 
