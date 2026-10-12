@@ -142,7 +142,7 @@ pipeline {
         // Change this to your Git email.
         GIT_EMAIL = 'hemaarumulla@gmail.com'
         // Change this to your GitHub username.
-        GIT_USER_NAME = 'hemaaru'
+        GIT_USER_NAME = 'hemaarumulla'
         YAML_FILE = 'deployment.yaml'
       }
 
